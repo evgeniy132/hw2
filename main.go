@@ -47,13 +47,7 @@ func main() {
 	zebra := Animal{name: "Зебра", species: "Зеброві"}
 	lion := Animal{name: "Лев", species: "Котячі"}
 
-	//animals := []Animal{cat, elephant, capybara, zebra, lion}
-
 	cage1 := Cage{number: 1, animal: &cat}
-	//cage2 := Cage{number: 2, animal: &elephant}
-	//cage3 := Cage{number: 3, animal: &capybara}
-	//cage4 := Cage{number: 4, animal: &zebra}
-	//cage5 := Cage{number: 5, animal: &lion}
 
 	zookeeper := Zookeeper{name: "Ловець", current: &cage1} //починає з першої клітки
 
